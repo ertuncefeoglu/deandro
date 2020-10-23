@@ -47,6 +47,8 @@ begin
        ListBox2.Items.Add(TutorialList[i]);
   end;
 
+  Label1.Text := 'arama tamamlandý';
+
 end;
 
 procedure TForm2.Edit1Enter(Sender: TObject);
